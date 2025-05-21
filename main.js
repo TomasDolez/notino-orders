@@ -61,6 +61,7 @@ function renderTable(data, filter = "") {
             <tr>
                 <td>${row['Name'] || ""}</td>
                 <td>${row['Purchase Date'] || ""}</td>
+                <td>${row['Pick Date'] || ""}</td>
                 <td>${row['Order Number'] || ""}</td>
                 <td>${row['Price'] || ""}</td>
                 <td>${row['Contacts'] || ""}</td>
