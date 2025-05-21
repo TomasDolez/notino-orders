@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NOTINO Výprodej</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main class="container">
+        <h1>NOTINO Výprodej 🛒</h1>
+        <div class="dashboard">
+            <div class="card">
+                <b>Celkem položek:</b> <span id="totalCount" class="badge">0</span>
+            </div>
+            <div class="card">
+                <b>Ready:</b> <span id="readyCount" class="badge">0</span>
+            </div>
+            <div class="card">
+                <b>Picked:</b> <span id="pickedCount" class="badge">0</span>
+            </div>
+        </div>
+        <input type="search" id="searchInput" placeholder="Hledej podle názvu nebo kontaktu..." />
+        <table>
+            <thead>
+                <tr>
+                    <th>Název</th>
+                    <th>Datum Objednání</th>
+                    <th>Číslo Objednávky</th>
+                    <th>Cena</th>
+                    <th>Pro Koho</th>
+                    <th>Ready</th>
+                    <th>Picked</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <!-- Data rows -->
+            </tbody>
+        </table>
+    </main>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
